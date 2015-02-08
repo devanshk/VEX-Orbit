@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_section0">Home</string>
+    <string name="title_section1">Design</string>
+    <string name="title_section2">Scout</string>
+    <string name="title_section3">Compete</string>
+    <string name="title_section4">Analyze</string>
+    <string name="title_section5">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+
+    <string name="app_name">Vex Orbital</string>
+    <string name="save_changes">Save</string>
+    <string name="cancel_changes">Cancel</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_settings">Edit</string>
+    <string name="email_settings">Email Team Info</string>
+    <string name="text_settings">Text Team Info</string>
+    <string name="team_info_title">Team Info:</string>
+    <string name="team_number_title">Number:</string>
+    <string name="team_name_title">Name:</string>
+    <string name="team_club_title">Club:</string>
+    <string name="abilities_title">Abilities:</string>
+    <string name="drive_title">Drive:</string>
+    <string name="drive_type_title">Type:</string>
+    <string name="lift_type_title">Type:</string>
+    <string name="intake_title">Intake:</string>
+    <string name="lift_title">Lift:</string>
+    <string name="notes_title">Extra Notes:</string>
+    <string name="auton_title">Autonomous:</string>
+    <string name="auton_match_title">Synchronized?</string>
+    <string name="score_title">Score: </string>
+    <string name="reliability_title">Reliability:</string>
+    <string name="motor_config_title">Motor Distribution:</string>
+    <string name="motor_drive_title">Drive</string>
+    <string name="motor_lift_title">Lift</string>
+    <string name="motor_intake_title">Intake</string>
+    <string name="delete_team">Delete Team</string>
+    <string name="credits">Developed by Devansh Kukreja from 917B</string>
+
+    <string name="team_list_title">Vex Teams</string>
+    <string name="idea_grid_title">Saved Designs</string>
+
+    <string name="add_team">New Team</string>
+    <string name="empty">This looks a little empty.\n+\nWhy not add your team?</string>
+    <!-- Hints -->
+    <string name="team_number_hint">i.e. 917B</string>
+    <string name="team_name_hint">i.e. Bistromathics</string>
+    <string name="team_club_hint">i.e. Quantum</string>
+    <string name="custom_drive_hint">Enter a drive type</string>
+    <string name="custom_lift_hint">Enter a lift type</string>
+    <string name="auton_score_hint">i.e. 6</string>
+    <string name="drive_notes_hint">i.e.\nDrives over cubes.</string>
+    <string name="intake_notes_hint">i.e.\nNeedle intake for skyrise pieces, side-rollers for cubes.</string>
+    <string name="lift_notes_hint">i.e.\nAttachable grappling hook.</string>
+    <string name="auton_notes_hint">i.e.\nWe can ram their auton.</string>
+    <string name="main_picture_helper_text">Tap to change pic.</string>
+    <string name="auton_helper">Tap to draw</string>
+    <string name="add_idea">New Design</string>
+    <string name="idea_name_title">Name:</string>
+    <string name="idea_name_hint">i.e. Holonomic</string>
+    <string name="delete_design">Delete Design</string>
+    <string name="design_enable_lengths_checkbox_text">Show Length</string>
+
+    <string-array name="drive_types">
+        <item>Tap Here</item>
+        <item>H-Drive</item>
+        <item>Tank Drive</item>
+        <item>Holonomic</item>
+        <item>X-Drive</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="lift_types">
+        <item>Tap Here</item>
+        <item>Linear Lift</item>
+        <item>Four-Bar</item>
+        <item>Six-Bar</item>
+        <item>Reverse Four-Bar</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="idea_types">
+        <item>Route</item>
+        <item>Drive</item>
+        <item>Lift</item>
+        <item>Intake</item>
+        <item>Gear</item>
+        <item>Custom</item>
+    </string-array>
+
+</resources>

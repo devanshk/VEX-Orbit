@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="account_info"
+        android:title="Account Information">
+
+        <EditTextPreference
+            android:key="user_name"
+            android:title="My Name"
+            android:summary="Your name"
+            android:dialogTitle="Username"
+            android:dialogMessage="What's your name?"/>
+
+        <EditTextPreference
+            android:key="team_number"
+            android:title="Team Number"
+            android:summary="Your team number"
+            android:dialogTitle="Team Number"
+            android:dialogMessage="What's your team number?"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

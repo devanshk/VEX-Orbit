@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="header_color">#7a7a7a</color>
+    <color name="credits_color">#ff8b8b8b</color>
+    <color name="toggle_off_color">#ff727dff</color>
+    <color name="toggle_on_color">#ff00dbbc</color>
+    <color name="hint_color">#ffdfdfdf</color>
+    <color name="delete_button_color">#ffff005e</color>
+    <color name="list_background_color">#ffeeeeee</color>
+    <color name="list_fragment_hint_color">#ff333333</color>
+
+    <color name="clear_color">#ffff005e</color>
+    <color name="cancel_button">#ffe70500</color>
+    <color name="save_button">#ff00ed1e</color>
+    <color name="drawing_background">#ffececec</color>
+    <color name="color1">#ffff0046</color>
+    <color name="color2">#ff5070ff</color>
+    <color name="color3">#ff46be3e</color>
+    <color name="color4">#ffda1ab6</color>
+    <color name="color5">#ff51cfff</color>
+    <color name="color6">#ff9600ff</color>
+    <color name="color7">#ffe19c00</color>
+
+    <color name="idea_custom">#ff3e42ff</color>
+    <color name="idea_route">#ffcfcfcf</color>
+    <color name="idea_drive">#ffff1629</color>
+    <color name="idea_lift">#ffffbe18</color>
+    <color name="idea_intake">#ff9025ff</color>
+    <color name="idea_gear">#ff22e459</color>
+
+    <color name="transparent">#00ffffff</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="light_gray">#dededd</color>
+    <color name="gray">#ffa7a7a7</color>
+    <color name="dark_gray">#ff474747</color>
+</resources>

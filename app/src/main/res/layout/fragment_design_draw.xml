@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <RelativeLayout
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="20dp">
+
+    <ImageView
+        android:id="@+id/design_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/blueprint"/>
+
+        <ImageView
+            android:id="@+id/design_canvas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/gray">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/design_checkbox_show_length"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/design_enable_lengths_checkbox_text"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/white"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="50dp"/>
+
+                    <ImageButton
+                        android:id="@+id/design_undo_button"
+                        android:padding="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:src="@drawable/undo"
+                        android:background="@android:color/holo_blue_dark"/>
+                    <ImageButton
+                        android:id="@+id/design_redo_button"
+                        android:layout_marginLeft="10dp"
+                        android:padding="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:src="@drawable/redo"
+                        android:background="@android:color/holo_red_light"/>
+                    <Button
+                        android:id="@+id/design_clear_button"
+                        android:layout_marginLeft="50dp"
+                        android:paddingLeft="40dp"
+                        android:paddingRight="45dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Clear"
+                        android:textColor="@android:color/white"
+                        android:background="@android:color/holo_red_dark"/>
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/toolbox_background"/>
+
+        <!--Toolbox Formats-->
+            <!--Basic-->
+        <HorizontalScrollView
+            android:id="@+id/design_toolbox_basic_tools"
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:id="@+id/design_toolbox_basic_line"
+                    android:clickable="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/line_icon"
+                    android:scaleType="centerInside"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/white"/>
+
+                <ImageView
+                    android:id="@+id/design_toolbox_basic_circle"
+                    android:clickable="true"
+                    android:layout_width="100dp"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/circle_icon"
+                    android:scaleType="centerInside"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageView
+                    android:id="@+id/design_toolbox_basic_rectangle"
+                    android:clickable="true"
+                    android:layout_width="100dp"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/rectangle_icon"
+                    android:scaleType="centerInside"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageView
+                    android:id="@+id/design_toolbox_basic_triangle"
+                    android:clickable="true"
+                    android:layout_width="100dp"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/triangle_icon"
+                    android:scaleType="centerInside"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+            <!--Gears-->
+        <HorizontalScrollView
+            android:id="@+id/design_toolbox_gear_tools"
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:id="@+id/design_toolbox_gear_12"
+                    android:clickable="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/gear_12"
+                    android:scaleType="centerInside"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"/>
+                <ImageView
+                    android:id="@+id/design_toolbox_gear_36"
+                    android:clickable="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/gear_36"
+                    android:scaleType="centerInside"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"/>
+                <ImageView
+                    android:id="@+id/design_toolbox_gear_60"
+                    android:clickable="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/gear_60"
+                    android:scaleType="centerInside"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"/>
+                <ImageView
+                    android:id="@+id/design_toolbox_gear_84"
+                    android:clickable="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/gear_84"
+                    android:scaleType="centerInside"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+            <!--Extra-->
+        <HorizontalScrollView
+            android:id="@+id/design_toolbox_extra_tools"
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:clickable="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/line_icon"
+                    android:scaleType="centerInside"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/design_toolbox_basic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <Button
+                android:id="@+id/design_toolbox_button_basic"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@color/light_gray"
+                android:text="Basic"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/design_toolbox_arrow_basic"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/side_triangle"
+                    android:layout_gravity="end"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/design_toolbox_gear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <Button
+                    android:id="@+id/design_toolbox_button_gear"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:background="@color/dark_gray"
+                    android:text="Gears"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/design_toolbox_arrow_gear"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/side_triangle"
+                    android:layout_gravity="end"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/design_toolbox_extra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/design_toolbox_button_extra"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:background="@color/dark_gray"
+                    android:text="Extra"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/design_toolbox_arrow_extra"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/side_triangle"
+                    android:layout_gravity="end"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+            </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
